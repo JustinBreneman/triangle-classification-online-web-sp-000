@@ -6,11 +6,10 @@ class Triangle
     @side_c = side_c
   end
   def kind
-    if side_a == (side_b == side_c)
+    if side_a == side_b && side_b == side_c
       :equilateral
     else
       false
-
     end
   end
 end
