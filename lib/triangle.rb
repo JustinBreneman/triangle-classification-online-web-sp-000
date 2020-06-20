@@ -10,7 +10,7 @@ class Triangle
       :equilateral
     else
       false
-      
+
     end
   end
 end
