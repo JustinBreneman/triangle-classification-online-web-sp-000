@@ -7,7 +7,7 @@ class Triangle
   end
   def kind
     if side_a == (side_b == side_c)
-      ':equilateral'
+      return ':equilateral'
     end
   end
 end
